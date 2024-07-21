@@ -68,11 +68,11 @@ cd job-management-application
    yarn dev
    ```
 
-5. The frontend application will start at [http://localhost:3000](http://localhost:3000).
+5. The frontend application will start at `http://localhost:3000`.
 
 ## Usage
 
-1. Open the frontend application in your browser at [http://localhost:3000](http://localhost:3000).
+1. Open the frontend application in your browser at `http://localhost:3000`.
 2. Use the "Create New Job" button to create new jobs.
 3. View the list of jobs and their statuses or results in real-time.
 
