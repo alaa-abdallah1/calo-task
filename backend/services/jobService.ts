@@ -22,7 +22,7 @@ export class JobService {
   }
 
   private async resolveJob(jobId: string) {
-    const delay = Math.floor(Math.random() * 60) * 100; // 5 sec to 5 min
+    const delay = Math.floor(Math.random() * 60) * 5000; // 5 sec to 5 min
     await new Promise((resolve) => setTimeout(resolve, delay));
     const imageUrl = await this.getRandomImage();
     const job = getJobById(jobId);
