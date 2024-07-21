@@ -18,7 +18,7 @@ This project is a job management application that includes both backend and fron
 ### 1. Clone the repository
 
 ```sh
-git clone <repository-url>
+git clone https://github.com/alaa-abdallah1/job-management-application.git
 cd job-management-application
 ```
 
@@ -34,9 +34,9 @@ cd job-management-application
    yarn install
    ```
 
-3. Create a `.env` file in the backend directory and add the following:
+3. Copy the example env file and make the required configuration changes in the .env file
    ```sh
-   ACCESS_KEY=your_unsplash_access_key
+   cp .env.example .env
    ```
 
 4. Start the backend server:
@@ -58,9 +58,9 @@ cd job-management-application
    yarn install
    ```
 
-3. Create a `.env` file in the frontend directory and add the following:
+3. Copy the example env file and make the required configuration changes in the .env file
    ```sh
-   VITE_APP_API_URL=http://localhost:4000
+   cp .env.example .env
    ```
 
 4. Start the frontend development server:
